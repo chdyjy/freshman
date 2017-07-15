@@ -35,7 +35,7 @@ var Doc = function(md) {
         window.uyan_config = {
             title:'求是潮新生手册',
             su:'qsc-freshman',
-            url:'http://freshman.coding.ac.cn/'
+            url:'http://freshman.chddata.com/'
         };
         var comments = $("<section class='em' id='comments'><h2>评论区</h2></section>");
 

@@ -2,7 +2,7 @@ var comment = function() {
     window.uyan_config = {
         title:'长安大学信息工程学院新生手册',
         su:'chd-freshman',
-        url:'http://freshman.coding.ac.cn/'
+        url:'http://freshman.chddata.com/'
     };
     $('#content').append('<div id="uyan_frame"></div><script type="text/javascript" id="UYScript" src="http://v2.uyan.cc/code/uyan.js?uid=1510034" async=""></script>');
 }

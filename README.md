@@ -5,6 +5,6 @@ freshman
 
 forked rom QSCTech/freshman
 
-(http://freshman.coding.ac.cn)
+(http://freshman.chddata.com)
 
 长大Yi实验室，向优秀的作品学习
