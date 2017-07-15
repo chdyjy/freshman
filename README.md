@@ -1,12 +1,10 @@
 freshman
 ========
 
-求是潮线上新生手册
+长安大学信息工程学院新生手册
 
-浙江大学新生手册线上版
+forked rom QSCTech/freshman
 
-(http://f.zjuqsc.com)
+(http://freshman.coding.ac.cn)
 
-浙江大学求是潮 荣誉出品
-
-欢迎提Issue和发起Pull request，我们将尽快检查。
+长大Yi实验室，向优秀的作品学习

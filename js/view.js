@@ -35,7 +35,7 @@ var Doc = function(md) {
         window.uyan_config = {
             title:'求是潮新生手册',
             su:'qsc-freshman',
-            url:'http://f.zjuqsc.com/'
+            url:'http://freshman.coding.ac.cn/'
         };
         var comments = $("<section class='em' id='comments'><h2>评论区</h2></section>");
 
@@ -414,7 +414,7 @@ var Doc = function(md) {
 
     this.updateUrl = function(url) {
         url = window.baseUrl + url;
-        window.history.pushState("求是潮新生手册", "求是潮新生手册", url);
+        window.history.pushState("信息学院新生手册", "信息学院新生手册", url);
         sessionStorage.setItem('url', JSON.stringify({url: url, timestamp: new Date().getTime()}));
     };
 

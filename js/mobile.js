@@ -1,10 +1,10 @@
 var comment = function() {
     window.uyan_config = {
-        title:'求是潮新生手册',
-        su:'qsc-freshman',
-        url:'http://f.zjuqsc.com/'
+        title:'长安大学信息工程学院新生手册',
+        su:'chd-freshman',
+        url:'http://freshman.coding.ac.cn/'
     };
-    $('#content').append('<div id="uyan_frame"></div><script type="text/javascript" id="UYScript" src="http://v1.uyan.cc/js/iframe.js?UYUserId=1811609" async=""></script>');
+    $('#content').append('<div id="uyan_frame"></div><script type="text/javascript" id="UYScript" src="http://v2.uyan.cc/code/uyan.js?uid=1510034" async=""></script>');
 }
 var init = function() {
     $.get('../share/freshman.md', function(data) {
