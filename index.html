@@ -9,8 +9,15 @@
     <link rel="stylesheet/less" type="text/css" href="css/styles.less">
     <script type="text/javascript">
 
-      if (window.location.href.match(/f\.zjuqsc\.com/)) window.baseUrl = '//freshman.chddata.com/';
-      if (window.location.href.match(/f\.myqsc\.com/)) location.href = '//freshman.chddata.com/';
+    if (navigator.userAgent.match(/Mobile|WebOS|iPhone|iPod|Windows Phone/i)) {
+        location.href = 'mobile/';
+    }
+
+    //window.baseUrl = '//localhost/freshman/';
+    //location.href = '//localhost/freshman/';
+    window.baseUrl = '//freshman.chddata.com/';
+    location.href = '//freshman.chddata.com';
+
     window.supportsTouch = (('ontouchstart' in window) || window.DocumentTouch && document instanceof window.DocumentTouch);
     var debug = false;
     less = {

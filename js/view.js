@@ -413,7 +413,10 @@ var Doc = function(md) {
     };
 
     this.updateUrl = function(url) {
+        console.log(url);
+        console.log(window.baseUrl);
         url = window.baseUrl + url;
+        
         window.history.pushState("信息学院新生手册", "信息学院新生手册", url);
         sessionStorage.setItem('url', JSON.stringify({url: url, timestamp: new Date().getTime()}));
     };
